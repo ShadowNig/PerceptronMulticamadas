@@ -32,7 +32,7 @@ for (i in c(2,3,5)) {
                                 teste = x.teste, 
                                 esperado.teste = y.teste,
                                 cam.oculta = i,
-                                max.iteracoes = 1000,
+                                max.iteracoes = 10000,
                                 titulo.plot = 
                                   paste("modelo", num.modelo))
   
@@ -54,7 +54,7 @@ for (i in c(2,3,5)) {
                                 teste = x.teste, 
                                 esperado.teste = y.teste,
                                 cam.oculta = c(2,i),
-                                max.iteracoes = 1000,
+                                max.iteracoes = 10000,
                                 titulo.plot = 
                                   paste("modelo", num.modelo))
   
@@ -74,7 +74,7 @@ for (i in c(2,3,5)) {
                                 teste = x.teste, 
                                 esperado.teste = y.teste,
                                 cam.oculta = c(3,i),
-                                max.iteracoes = 1000,
+                                max.iteracoes = 10000,
                                 titulo.plot = 
                                   paste("modelo", num.modelo))
   
@@ -94,7 +94,7 @@ for (i in c(2,3,5)) {
                                 teste = x.teste, 
                                 esperado.teste = y.teste,
                                 cam.oculta = c(5,i),
-                                max.iteracoes = 1000,
+                                max.iteracoes = 10000,
                                 titulo.plot = 
                                   paste("modelo", num.modelo))
   
@@ -116,7 +116,7 @@ for (i in c(2,3,5)) {
                                 teste = x.teste, 
                                 esperado.teste = y.teste,
                                 cam.oculta = rep(i, 5),
-                                max.iteracoes = 1000,
+                                max.iteracoes = 10000,
                                 titulo.plot = 
                                   paste("modelo", num.modelo))
   
@@ -135,7 +135,7 @@ mod = perceptron.multicamadas(treino=x.treino,
                               teste = x.teste, 
                               esperado.teste = y.teste,
                               cam.oculta = rep(2, 10),
-                              max.iteracoes = 1000,
+                              max.iteracoes = 10000,
                               titulo.plot = 
                                 paste("modelo", num.modelo))
 nome = paste("modelo ", num.modelo, ".rds", sep="")
@@ -149,7 +149,7 @@ mod = perceptron.multicamadas(treino=x.treino,
                               teste = x.teste, 
                               esperado.teste = y.teste,
                               cam.oculta = rep(3, 10),
-                              max.iteracoes = 1000,
+                              max.iteracoes = 10000,
                               titulo.plot = 
                                 paste("modelo", num.modelo))
 nome = paste("modelo ", num.modelo, ".rds", sep="")
@@ -163,7 +163,7 @@ mod = perceptron.multicamadas(treino=x.treino,
                               teste = x.teste, 
                               esperado.teste = y.teste,
                               cam.oculta = rep(5, 10),
-                              max.iteracoes = 1000,
+                              max.iteracoes = 10000,
                               titulo.plot = 
                                 paste("modelo", num.modelo))
 nome = paste("modelo ", num.modelo, ".rds", sep="")
