@@ -1,4 +1,4 @@
-source("MLP_Maqueise_(plot_acuracia).R", encoding = "UTF-8")
+source("MLP_Maqueise_plot_acuracia.R", encoding = "UTF-8")
 
 treino = read.csv("mushrooms_treino.csv")
 teste  = read.csv("mushrooms_teste.csv")
