@@ -3,8 +3,8 @@ source("MLP_Maqueise_plot_acuracia.R", encoding = "UTF-8")
 treino = read.csv("mushrooms_treino.csv")
 teste  = read.csv("mushrooms_teste.csv")
 
-x.treino = treino[1:100,-1]
-y.treino = as.matrix(treino[1:100,1])
+x.treino = treino[,-1]
+y.treino = as.matrix(treino[,1])
 
 # modelo 7
 set.seed(92021)
