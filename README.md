@@ -1,5 +1,5 @@
 # Perceptron Multicamadas
-[Algoritmo](./MLP_Maqueise.R) do modelo de aprendizado de máquinas **percetron multicamadas**. 
+[Algoritmo](./MLP_Maqueise.R) do modelo de aprendizado de máquinas **perceptron multicamadas**. 
 
 Esse algoritmo foi criado para meu trabalho de conclusão do curso de estátistica na Universidade Federal Fluminense, intitulado ***[Perceptron Multicamadas: uma ferramenta de Aprendizado Supervisionado](./TCC_MaqueisePinheiro.pdf)***, visando analisar as diferenças entre modelos com diferentes quantidades de camadas e neurônios na camada oculta.
 
@@ -49,21 +49,24 @@ Foi utilizadas a base *[mushrooms](./mushrooms)*, baixada em 18/06/2021 16h58min
 + `fastDummies`, versão 1.6.3
 + `visdat`, versão 0.5.3
 
-### Base de dados *Dry Bean*
-Foi utilizadas a base *[drybean](./drybean)*, baixada em 18/06/2021 16h00min no [repositório de apredizado de máquinas da Universidade de Irvine, Califórnia (UCI)](https://archive.ics.uci.edu/ml/datasets/Dry+Bean+Dataset).
+> Futuramente...
+> 
+> ### Base de dados *Dry Bean*
+> Foi utilizadas a base *[drybean](./drybean)*, baixada em 18/06/2021 16h00min no [repositório de apredizado de máquinas da Universidade de Irvine, Califórnia (UCI)](https://archive.ics.uci.edu/ml/datasets/Dry+Bean+Dataset).
+>
+> #### Pré-processamentos 
+> + foram removidas as linhas repetidas usando a função `dplyr::distinct`;
+> + foi utilizada a função `caret::createDataPartition`, para fazer a divisão da base em uma amostra de treino e outra de teste mantendo a proporção de classe dos rotulos nas duas amostras (utilizando a semente 92021); 
+> + as duas amostras tiveram seus valores padronizados pelos parametros do treino utilizando a função `caret::preProcess`;
+> + por fim, foi utilizado a função `fastDummies::dummy_cols` para transformar as variáveis categóricas em indicadoras.
+>
+> #### Pacotes utilizados
+> + `readr`, versão 1.4.0
+> + `dplyr`, versão 2.1.1
+> + `caret`, versão 6.0-88
+> + `fastDummies`, versão 1.6.3
+> + `readxl`, versão 1.3.1
 
-#### Pré-processamentos 
-+ foram removidas as linhas repetidas usando a função `dplyr::distinct`;
-+ foi utilizada a função `caret::createDataPartition`, para fazer a divisão da base em uma amostra de treino e outra de teste mantendo a proporção de classe dos rotulos nas duas amostras (utilizando a semente 92021); 
-+ as duas amostras tiveram seus valores padronizados pelos parametros do treino utilizando a função `caret::preProcess`;
-+ por fim, foi utilizado a função `fastDummies::dummy_cols` para transformar as variáveis categóricas em indicadoras.
-
-#### Pacotes utilizados
-+ `readr`, versão 1.4.0
-+ `dplyr`, versão 2.1.1
-+ `caret`, versão 6.0-88
-+ `fastDummies`, versão 1.6.3
-+ `readxl`, versão 1.3.1
 
 ## Observações da função
 1. Esse código foi pensado em cima do algoritmo desenvolvido por **Mello e Ponti** em seu livro *A Practical Approach on the Statistical Learning Theory*, generalizando a quantidade de camadas na camada oculta.
