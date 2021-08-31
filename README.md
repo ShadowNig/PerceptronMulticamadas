@@ -32,6 +32,25 @@ Foi baseado no algoritmo desenvolvido por **Mello e Ponti (2018)** em seu livro 
 
 ## Modelos
 - Todos os modelos foram gerados com semente 92021 por meio da função `set.seed()`.
+- Para cada base foi gerado 18 modelos com as seguintes quantidades de neuronios e camadas:
+ 1. camadas: 1;  neuronios: 2;
+ 2.  camadas: 1;  neuronios: 3;
+ 3.  camadas: 1;  neuronios: 5;
+ 4.  camadas: 2;  neuronios: 2 e 2;
+ 5.  camadas: 2;  neuronios: 2 e 3;
+ 6.  camadas: 2;  neuronios: 2 e 5;
+ 7.  camadas: 2;  neuronios: 3 e 2;
+ 8.  camadas: 2;  neuronios: 3 e 3;
+ 9.  camadas: 2;  neuronios: 3 e 5;
+ 10. camadas: 2;  neuronios: 5 e 2;
+ 11. camadas: 2;  neuronios: 5 e 3;
+ 12. camadas: 2;  neuronios: 5 e 5;
+ 13. camadas: 5;  neuronios: 2 em cada camada;
+ 14. camadas: 5;  neuronios: 3 em cada camada;
+ 15. camadas: 5;  neuronios: 5 em cada camada;
+ 16. camadas: 10; neuronios: 2 em cada camada;
+ 17. camadas: 10; neuronios: 3 em cada camada;
+ 18. camadas: 10; neuronios: 5 em cada camada;
  
 ### Base de dados *Mushrooms*
 Foi utilizadas a base *[mushrooms](./mushrooms)*, baixada em 18/06/2021 16h58min no [repositório de apredizado de máquinas da Universidade de Irvine, Califórnia (UCI)](https://archive.ics.uci.edu/ml/datasets/mushroom).
