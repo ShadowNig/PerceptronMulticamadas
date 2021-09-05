@@ -1,7 +1,7 @@
 # Perceptron Multicamadas
 [Algoritmo](./MLP_Maqueise.R) do modelo de aprendizado de máquinas **perceptron multicamadas**. 
 
-Esse algoritmo foi criado para meu trabalho de conclusão do curso de estatística na Universidade Federal Fluminense, intitulado ***[Perceptron Multicamadas: uma ferramenta de Aprendizado Supervisionado](./TCC_II_Maqueise_Pinheiro)***, visando analisar as diferenças entre modelos com diferentes quantidades de camadas e neurônios na camada oculta.
+Esse algoritmo foi criado para meu trabalho de conclusão do curso de estatística na Universidade Federal Fluminense, intitulado ***[Perceptron Multicamadas: uma ferramenta de Aprendizado Supervisionado](./TCC_II_Maqueise_Pinheiro.pdf)***, visando analisar as diferenças entre modelos com diferentes quantidades de camadas e neurônios na camada oculta.
 
 ## Especificações
 Para isso, foram rodados diversos modelos utilizando as especificações abaixo:
